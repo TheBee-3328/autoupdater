@@ -25,8 +25,7 @@ This code was coded in Visual Studio Code by TheBee. Any use that this page does
 - to edit the file and publish it as their own
 - sell the file
 
-**Users are allwoed to:**
-
+**Users are allowed to:**
 - Use the file for personal use
 - Use the file for comercial use
 - Edit the file in any way
