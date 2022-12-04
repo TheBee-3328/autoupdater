@@ -1,4 +1,4 @@
-# autoupdater
+# Auto Updater
 Python code for automatic software update. If there is a new version, updater file will automatically update the software from the software download link.
 
 ## Setup
