@@ -1,7 +1,7 @@
 # autoupdater
 Python code for automatic software update. If there is a new version, updater file will automatically update the software from the software download link.
 
-#Setup
+## Setup
 - *1* - Clone the repository into the new folder using following code : `git clone https://github.com/TheBee-3328/autoupdater`
 - *2* - Open the **settings.json** file and edit the following variables:
   - `name` : Change this to name of your software
@@ -16,7 +16,7 @@ Python code for automatic software update. If there is a new version, updater fi
 - *4* - Set the updater to run the app after the update or without the update
 
 
-#Credits
+## Credits
 
 This code was coded in Visual Studio Code by TheBee. Any use that this page does not allow is prohibited!
 
@@ -31,7 +31,7 @@ This code was coded in Visual Studio Code by TheBee. Any use that this page does
 - Edit the file in any way
 - Sell the software that uses the updater (AutoUpdater must be part of the cheapest plan)
 
-#Future plans
+## Future plans
 - **Add the manual update option**
 - **Add the messagebox on update**
 - **Add the messagebox that asks you if you want to update (only when autoupdate is set to False)**
