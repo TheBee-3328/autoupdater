@@ -78,7 +78,7 @@ if check == "True": #check if the autoupdate is eneabled
         print ("download complete!") #debug line
         print ("download file location: ", filename) #debug line
         print ("download headers: ", headers) #debug line
-        os.remove("TheBee RPC.exe") #remove the old version file
+        os.remove(cftarget) #remove the old version file
         shutil.copyfile(ftarget, cftarget) #copy the file from temp folder to the main folder
 
         #changing current version in the .json file
