@@ -1,0 +1,14 @@
+{
+    "name": "TheBee RPC",
+    "version": "0.1",
+    "autoupdate": "True",
+    "data": [
+        {
+            "vurl": "https://raw.githubusercontent.com/TheBee-3328/thebeerpc/main/version.txt",
+            "vtarget": "./temp/v.txt",
+            "furl": "https://raw.githubusercontent.com/TheBee-3328/thebeerpc/main/console.exe",
+            "ftarget":  "./temp/TheBee RPC.exe",
+            "cftarget": "TheBee RPC.txt"
+        }
+    ]
+}
