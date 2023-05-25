@@ -33,5 +33,4 @@ This code was coded in Visual Studio Code by TheBee. Any use that this page does
 
 ## Future plans
 - **Add the manual update option**
-- **Add the messagebox on update**
 - **Add the messagebox that asks you if you want to update (only when autoupdate is set to False)**
