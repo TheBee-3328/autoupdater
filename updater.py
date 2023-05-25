@@ -1,6 +1,7 @@
 import urllib.request
 import os
 import shutil
+import json
 
 CHECK_FOLDER = os.path.isdir("./temp") #check if temp folder exists
 
@@ -21,7 +22,7 @@ check = check.replace(' ', '') #remove all the spaces to only keep the autoupdat
 if check == "True": #check if the autoupdate is eneabled
 
     #edit the version string for the correct version format
-    version = file[1] #pick the second line of the file (first line is 0) where version is set
+    version = file[2] #pick the third line of the file (first line is 0) where version is set
     version = version.replace('"', '') #remove all the " character
     version = version.replace('version', '') #remove version text
     version = version.replace(':', '') #remove : character
